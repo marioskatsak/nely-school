@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Πρόγραμμα Λειτουργίας – Σχολή Ξηροκαμπίου Πειραιά</title>
+  <meta name="description" content="Εβδομαδιαίο πρόγραμμα μαθημάτων, σεμινάρια και φόρμα εκδήλωσης ενδιαφέροντος για τη Σχολή Ξηροκαμπίου Πειραιά.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-accent">♪</span> Σχολή Ξηροκαμπίου</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Αρχική</a></li>
+      <li><a href="programs.html">Προγράμματα</a></li>
+      <li><a href="schedule.html" class="active">Πρόγραμμα</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">Σχετικά</a></li>
+      <li><a href="contact.html">Επικοινωνία</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Μενού"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero page-hero-alt" style="background:linear-gradient(135deg,var(--primary),var(--primary-light))">
+  <h1>Πρόγραμμα Λειτουργίας</h1>
+  <p>Εβδομαδιαίος πίνακας μαθημάτων – Παράρτημα Πειραιά</p>
+</div>
+
+<!-- ── Weekly Schedule ─────────────────────────────────────── -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title">
+      <h2>Εβδομαδιαίο Πρόγραμμα</h2>
+      <div class="divider"><span class="divider-lyre">🪕</span></div>
+      <p>Ενημερωθείτε για τα διαθέσιμα μαθήματα ανά ημέρα και ώρα</p>
+    </div>
+
+    <!-- Legend -->
+    <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:2rem">
+      <span class="lesson lesson-music">Μουσική</span>
+      <span class="lesson lesson-lyre">Αρχαία Λύρα</span>
+      <span class="lesson lesson-dance">Χοροθεραπεία</span>
+      <span class="lesson lesson-arts">Εικαστικά</span>
+    </div>
+
+    <div class="schedule-wrap">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Ώρα</th>
+            <th>Δευτέρα</th>
+            <th>Τρίτη</th>
+            <th>Τετάρτη</th>
+            <th>Πέμπτη</th>
+            <th>Παρασκευή</th>
+            <th>Σάββατο</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time-col">09:00–10:00</td>
+            <td>–</td>
+            <td><span class="lesson lesson-lyre">Αρχαία Λύρα</span></td>
+            <td>–</td>
+            <td><span class="lesson lesson-lyre">Αρχαία Λύρα</span></td>
+            <td>–</td>
+            <td><span class="lesson lesson-dance">Χοροθεραπεία</span></td>
+          </tr>
+          <tr>
+            <td class="time-col">10:00–11:00</td>
+            <td><span class="lesson lesson-arts">Εικαστικά Παιδ.</span></td>
+            <td>–</td>
+            <td><span class="lesson lesson-arts">Εικαστικά Παιδ.</span></td>
+            <td>–</td>
+            <td><span class="lesson lesson-arts">Εικαστικά Παιδ.</span></td>
+            <td><span class="lesson lesson-dance">Χοροθεραπεία</span></td>
+          </tr>
+          <tr>
+            <td class="time-col">11:00–12:00</td>
+            <td><span class="lesson lesson-music">Μουσική Παιδ.</span></td>
+            <td>–</td>
+            <td><span class="lesson lesson-music">Μουσική Παιδ.</span></td>
+            <td>–</td>
+            <td><span class="lesson lesson-music">Μουσική Παιδ.</span></td>
+            <td><span class="lesson lesson-music">Μουσική Ενηλ.</span></td>
+          </tr>
+          <tr>
+            <td class="time-col">12:00–13:00</td>
+            <td>–</td>
+            <td>–</td>
+            <td>–</td>
+            <td>–</td>
+            <td>–</td>
+            <td><span class="lesson lesson-arts">Εικαστικά Ενηλ.</span></td>
+          </tr>
+          <tr>
+            <td class="time-col">17:00–18:00</td>
+            <td><span class="lesson lesson-dance">Χοροθεραπεία</span></td>
+            <td><span class="lesson lesson-arts">Εικαστικά Ενηλ.</span></td>
+            <td><span class="lesson lesson-dance">Χοροθεραπεία</span></td>
+            <td><span class="lesson lesson-arts">Εικαστικά Ενηλ.</span></td>
+            <td>–</td>
+            <td>–</td>
+          </tr>
+          <tr>
+            <td class="time-col">18:00–19:00</td>
+            <td><span class="lesson lesson-music">Κιθάρα</span></td>
+            <td><span class="lesson lesson-music">Πιάνο</span></td>
+            <td><span class="lesson lesson-music">Κιθάρα</span></td>
+            <td><span class="lesson lesson-music">Πιάνο</span></td>
+            <td>–</td>
+            <td>–</td>
+          </tr>
+          <tr>
+            <td class="time-col">19:00–20:00</td>
+            <td><span class="lesson lesson-lyre">Αρχαία Λύρα</span></td>
+            <td><span class="lesson lesson-dance">Χοροθεραπεία</span></td>
+            <td><span class="lesson lesson-lyre">Αρχαία Λύρα</span></td>
+            <td><span class="lesson lesson-dance">Χοροθεραπεία</span></td>
+            <td>–</td>
+            <td>–</td>
+          </tr>
+          <tr>
+            <td class="time-col">20:00–21:00</td>
+            <td><span class="lesson lesson-music">Παραδοσιακά Όρ.</span></td>
+            <td>–</td>
+            <td><span class="lesson lesson-music">Παραδοσιακά Όρ.</span></td>
+            <td>–</td>
+            <td>–</td>
+            <td>–</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="color:var(--text-light);font-size:0.82rem;text-align:center;margin-top:1rem">* Το πρόγραμμα ενδέχεται να τροποποιηθεί. Επικοινωνήστε μαζί μας για επιβεβαίωση.</p>
+  </div>
+</section>
+
+<!-- ── Upcoming Events ─────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Επερχόμενα Σεμινάρια & Εκδηλώσεις</h2>
+      <div class="divider"><span class="divider-lyre">🪕</span></div>
+    </div>
+    <div class="info-grid">
+      <div class="info-box">
+        <h4>🎵 Σεμινάριο Αρχαίας Λύρας</h4>
+        <p>Εντατικό σεμινάριο 3 ημερών για αρχάριους και προχωρημένους. Θεωρία, τεχνική, ρεπερτόριο αρχαίας ελληνικής μουσικής.<br><strong>Μάιος 2025</strong></p>
+      </div>
+      <div class="info-box">
+        <h4>💃 Εργαστήριο Χοροθεραπείας</h4>
+        <p>Ανοιχτό εργαστήριο χοροθεραπείας για ενήλικες. Έμφαση στη σωματική συνειδητοποίηση και τη δημιουργική έκφραση.<br><strong>Ιούνιος 2025</strong></p>
+      </div>
+      <div class="info-box">
+        <h4>🎨 Καλοκαιρινό Εικαστικό Camp</h4>
+        <p>Εβδομαδιαίο εικαστικό camp για παιδιά 6–14 ετών. Ζωγραφική, κεραμική, μακέτες και εκπαιδευτικές επισκέψεις σε μουσεία.<br><strong>Ιούλιος 2025</strong></p>
+      </div>
+      <div class="info-box">
+        <h4>🏛️ Αρχαιοελληνική Μουσική & Θέατρο</h4>
+        <p>Συνεργατική παράσταση μαθητών: αρχαία μουσική, χορός, δραματοποίηση μύθων. Ανοιχτή εκδήλωση για γονείς και φίλους.<br><strong>Σεπτέμβριος 2025</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Booking Form ────────────────────────────────────────── -->
+<section class="section section-alt">
+  <div class="container" style="max-width:760px">
+    <div class="section-title">
+      <h2>Εκδήλωση Ενδιαφέροντος / Κράτηση Θέσης</h2>
+      <div class="divider"><span class="divider-lyre">🪕</span></div>
+      <p>Συμπληρώστε τη φόρμα και θα επικοινωνήσουμε μαζί σας για επιβεβαίωση και πληρέστερη ενημέρωση.</p>
+    </div>
+
+    <!-- Replace action="#" with your Formspree URL, e.g. https://formspree.io/f/XXXXXX -->
+    <form id="bookingForm" class="form-card" action="#" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="firstName">Όνομα *</label>
+          <input type="text" id="firstName" name="firstName" placeholder="π.χ. Μαρία" required>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Επώνυμο *</label>
+          <input type="text" id="lastName" name="lastName" placeholder="π.χ. Παπαδοπούλου" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="email@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Τηλέφωνο</label>
+          <input type="tel" id="phone" name="phone" placeholder="+30 69X XXX XXXX">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="program">Πρόγραμμα Ενδιαφέροντος *</label>
+          <select id="program" name="program" required>
+            <option value="" disabled selected>Επιλέξτε πρόγραμμα</option>
+            <option value="lyre">Αρχαία Λύρα</option>
+            <option value="guitar">Κιθάρα</option>
+            <option value="piano">Πιάνο / Keyboard</option>
+            <option value="traditional">Παραδοσιακά Όργανα</option>
+            <option value="dancetherapy_adults">Χοροθεραπεία Ενηλίκων</option>
+            <option value="dancetherapy_kids">Χοροθεραπεία Παιδιών / Εφήβων</option>
+            <option value="arts_kids">Εικαστικά Παιδιών</option>
+            <option value="arts_adults">Εικαστικά Ενηλίκων</option>
+            <option value="music_kids">Μουσική Παιδιών (Μουσικοκινητική)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="ageGroup">Ηλικιακή Ομάδα *</label>
+          <select id="ageGroup" name="ageGroup" required>
+            <option value="" disabled selected>Επιλέξτε ηλικία</option>
+            <option value="children">Παιδιά (4–12 ετών)</option>
+            <option value="teens">Έφηβοι (13–18 ετών)</option>
+            <option value="adults">Ενήλικες (18–65)</option>
+            <option value="seniors">Τρίτη Ηλικία (65+)</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="experience">Επίπεδο εμπειρίας</label>
+        <select id="experience" name="experience">
+          <option value="beginner">Αρχάριος – Καμία εμπειρία</option>
+          <option value="intermediate">Μέσο επίπεδο</option>
+          <option value="advanced">Προχωρημένος</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Σχόλια / Ερωτήσεις</label>
+        <textarea id="message" name="message" placeholder="Οποιαδήποτε επιπλέον πληροφορία ή ερώτηση..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Αποστολή Αίτησης</button>
+      <div class="form-success">✓ Η αίτησή σας στάλθηκε επιτυχώς! Θα επικοινωνήσουμε σύντομα.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo"><span class="accent">♪</span> Σχολή Ξηροκαμπίου</span>
+        <p>Καλλιτεχνική σχολή στον Πειραιά. Μουσική, Χοροθεραπεία και Εικαστικές Τέχνες για όλες τις ηλικίες.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Σύνδεσμοι</h4>
+        <ul>
+          <li><a href="index.html">Αρχική</a></li>
+          <li><a href="programs.html">Προγράμματα</a></li>
+          <li><a href="schedule.html">Πρόγραμμα</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">Σχετικά</a></li>
+          <li><a href="contact.html">Επικοινωνία</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Προγράμματα</h4>
+        <ul>
+          <li><a href="programs.html">Μουσική</a></li>
+          <li><a href="programs.html">Χοροθεραπεία</a></li>
+          <li><a href="programs.html">Εικαστικά</a></li>
+          <li><a href="schedule.html">Εγγραφές</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Επικοινωνία</h4>
+        <p>📍 Πειραιάς, Αττική<br>📞 <a href="tel:+302100000000" style="color:rgba(255,255,255,.65)">+30 210 000 0000</a><br>✉️ <a href="mailto:info@sxolixirokamoiou.gr" style="color:rgba(255,255,255,.65)">info@sxolixirokamoiou.gr</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Σχολή Ξηροκαμπίου – Παράρτημα Πειραιά. Όλα τα δικαιώματα διατηρούνται.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

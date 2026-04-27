@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Προγράμματα Σπουδών – Σχολή Ξηροκαμπίου Πειραιά</title>
+  <meta name="description" content="Προγράμματα μουσικής, χοροθεραπείας και εικαστικών τεχνών για παιδιά, εφήβους, ενήλικες και τρίτη ηλικία στον Πειραιά.">
+  <meta name="keywords" content="καλλιτεχνική σχολή Πειραιάς, χοροθεραπεία, εκμάθηση μουσικής, αρχαία λύρα, εικαστικά, μαθήματα για όλες τις ηλικίες">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-accent">♪</span> Σχολή Ξηροκαμπίου</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Αρχική</a></li>
+      <li><a href="programs.html" class="active">Προγράμματα</a></li>
+      <li><a href="schedule.html">Πρόγραμμα</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">Σχετικά</a></li>
+      <li><a href="contact.html">Επικοινωνία</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Μενού"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <h1>Προγράμματα Σπουδών</h1>
+  <p>Βρείτε το πρόγραμμα που ταιριάζει στην ηλικία και τα ενδιαφέροντά σας</p>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Age Filter -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">Όλες οι Ηλικίες</button>
+      <button class="filter-btn" data-filter="children">Παιδιά (4–12)</button>
+      <button class="filter-btn" data-filter="teens">Έφηβοι (13–18)</button>
+      <button class="filter-btn" data-filter="adults">Ενήλικες</button>
+      <button class="filter-btn" data-filter="seniors">Τρίτη Ηλικία</button>
+    </div>
+
+    <div class="programs-grid">
+
+      <!-- Αρχαία Λύρα -->
+      <div class="program-card" data-ages="children,teens,adults,seniors">
+        <div class="program-icon">🪕</div>
+        <h3>Αρχαία Λύρα</h3>
+        <p>Εκμάθηση του αρχαιότερου χορδόφωνου οργάνου της Ελλάδας. Από τεχνική βασικών συγχορδιών έως σύνθεση και αναπαράσταση αρχαίας μουσικής. Μαθήματα ατομικά και σε μικρά γκρουπ.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-children">Παιδιά</span>
+          <span class="age-tag tag-teens">Έφηβοι</span>
+          <span class="age-tag tag-adults">Ενήλικες</span>
+          <span class="age-tag tag-seniors">Τρίτη Ηλικία</span>
+        </div>
+      </div>
+
+      <!-- Κιθάρα -->
+      <div class="program-card" data-ages="children,teens,adults">
+        <div class="program-icon">🎸</div>
+        <h3>Κιθάρα</h3>
+        <p>Κλασική και σύγχρονη κιθάρα. Αρχάριοι και προχωρημένοι. Τεχνική δακτύλου, ανάγνωση παρτιτούρας, ρεπερτόριο από παραδοσιακά ελληνικά έως rock και pop.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-children">Παιδιά</span>
+          <span class="age-tag tag-teens">Έφηβοι</span>
+          <span class="age-tag tag-adults">Ενήλικες</span>
+        </div>
+      </div>
+
+      <!-- Πιάνο -->
+      <div class="program-card" data-ages="children,teens,adults,seniors">
+        <div class="program-icon">🎹</div>
+        <h3>Πιάνο / Keyboard</h3>
+        <p>Μαθήματα πιάνου για όλα τα επίπεδα. Κλασική τεχνική, θεωρία μουσικής, ανάγνωση παρτιτούρας. Ιδιαίτερη έμφαση στην τεχνική και στη μουσική έκφραση.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-children">Παιδιά</span>
+          <span class="age-tag tag-teens">Έφηβοι</span>
+          <span class="age-tag tag-adults">Ενήλικες</span>
+          <span class="age-tag tag-seniors">Τρίτη Ηλικία</span>
+        </div>
+      </div>
+
+      <!-- Παραδοσιακά Όργανα -->
+      <div class="program-card" data-ages="teens,adults,seniors">
+        <div class="program-icon">🪗</div>
+        <h3>Παραδοσιακά Όργανα</h3>
+        <p>Βιολί, μπουζούκι, λαούτο και άλλα παραδοσιακά ελληνικά όργανα. Εξερεύνηση της ελληνικής μουσικής παράδοσης από τα δημοτικά ως τα ρεμπέτικα.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-teens">Έφηβοι</span>
+          <span class="age-tag tag-adults">Ενήλικες</span>
+          <span class="age-tag tag-seniors">Τρίτη Ηλικία</span>
+        </div>
+      </div>
+
+      <!-- Χοροθεραπεία Ενήλικες -->
+      <div class="program-card" data-ages="adults,seniors">
+        <div class="program-icon">💃</div>
+        <h3>Χοροθεραπεία Ενηλίκων</h3>
+        <p>Θεραπευτική χρήση κίνησης και χορού για ενίσχυση ψυχοσωματικής ευεξίας. Εντάσσεται σε πλαίσιο δημιουργικής αυτοέκφρασης, μείωσης άγχους και βελτίωσης κοινωνικών δεξιοτήτων.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-adults">Ενήλικες</span>
+          <span class="age-tag tag-seniors">Τρίτη Ηλικία</span>
+        </div>
+      </div>
+
+      <!-- Χοροθεραπεία Παιδιά -->
+      <div class="program-card" data-ages="children,teens">
+        <div class="program-icon">🕺</div>
+        <h3>Χοροθεραπεία Παιδιών & Εφήβων</h3>
+        <p>Ειδικό πρόγραμμα για παιδιά και εφήβους. Ανάπτυξη αυτοεκτίμησης, σωματικής συνείδησης και κοινωνικής ενσωμάτωσης μέσα από το παιχνίδι και τη δημιουργική κίνηση.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-children">Παιδιά</span>
+          <span class="age-tag tag-teens">Έφηβοι</span>
+        </div>
+      </div>
+
+      <!-- Εικαστικά Παιδιά -->
+      <div class="program-card" data-ages="children,teens">
+        <div class="program-icon">🖍️</div>
+        <h3>Εικαστικά Εργαστήρια Παιδιών</h3>
+        <p>Ζωγραφική, κολάζ, πηλός και mixed media. Ανάπτυξη δημιουργικής σκέψης, λεπτής κινητικότητας και αισθητικής αντίληψης μέσα σε παιγνιώδες περιβάλλον.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-children">Παιδιά</span>
+          <span class="age-tag tag-teens">Έφηβοι</span>
+        </div>
+      </div>
+
+      <!-- Εικαστικά Ενήλικες -->
+      <div class="program-card" data-ages="adults,seniors">
+        <div class="program-icon">🎨</div>
+        <h3>Εικαστικά Εργαστήρια Ενηλίκων</h3>
+        <p>Ζωγραφική σε καμβά, ακουαρέλα, παστέλ, ψηφιακή τέχνη. Εβδομαδιαία εργαστήρια για ενήλικες που επιθυμούν να αναπτύξουν την καλλιτεχνική τους έκφραση.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-adults">Ενήλικες</span>
+          <span class="age-tag tag-seniors">Τρίτη Ηλικία</span>
+        </div>
+      </div>
+
+      <!-- Μουσική Παιδιών -->
+      <div class="program-card" data-ages="children">
+        <div class="program-icon">🎼</div>
+        <h3>Μουσική Παιδιών (Μουσικοκινητική)</h3>
+        <p>Βιωματική μουσική εκπαίδευση για μικρά παιδιά. Ρυθμός, τραγούδι, απλά κρουστά και μουσικά παιχνίδια. Ιδανικό εισαγωγικό πρόγραμμα από 4 ετών.</p>
+        <div class="age-tags">
+          <span class="age-tag tag-children">Παιδιά 4–12</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center;margin-top:3rem">
+      <p style="color:var(--text-light);margin-bottom:1.25rem">Θέλετε να ξεκινήσετε; Κλείστε θέση ή εκδηλώστε ενδιαφέρον σήμερα.</p>
+      <a href="schedule.html" class="btn btn-primary">Κράτηση Θέσης</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo"><span class="accent">♪</span> Σχολή Ξηροκαμπίου</span>
+        <p>Καλλιτεχνική σχολή στον Πειραιά. Μουσική, Χοροθεραπεία και Εικαστικές Τέχνες για όλες τις ηλικίες.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Σύνδεσμοι</h4>
+        <ul>
+          <li><a href="index.html">Αρχική</a></li>
+          <li><a href="programs.html">Προγράμματα</a></li>
+          <li><a href="schedule.html">Πρόγραμμα</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">Σχετικά</a></li>
+          <li><a href="contact.html">Επικοινωνία</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Προγράμματα</h4>
+        <ul>
+          <li><a href="programs.html">Μουσική</a></li>
+          <li><a href="programs.html">Χοροθεραπεία</a></li>
+          <li><a href="programs.html">Εικαστικά</a></li>
+          <li><a href="schedule.html">Εγγραφές</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Επικοινωνία</h4>
+        <p>📍 Πειραιάς, Αττική<br>📞 <a href="tel:+302100000000" style="color:rgba(255,255,255,.65)">+30 210 000 0000</a><br>✉️ <a href="mailto:info@sxolixirokamoiou.gr" style="color:rgba(255,255,255,.65)">info@sxolixirokamoiou.gr</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Σχολή Ξηροκαμπίου – Παράρτημα Πειραιά. Όλα τα δικαιώματα διατηρούνται.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

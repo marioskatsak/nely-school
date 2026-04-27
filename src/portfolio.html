@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Σχολή Ξηροκαμπίου Πειραιά</title>
+  <meta name="description" content="Οπτικοακουστικό υλικό από τις δραστηριότητες της Σχολής Ξηροκαμπίου: μουσικές εκτελέσεις, χοροθεραπεία, εικαστικά εργαστήρια.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo"><span class="logo-accent">♪</span> Σχολή Ξηροκαμπίου</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Αρχική</a></li>
+      <li><a href="programs.html">Προγράμματα</a></li>
+      <li><a href="schedule.html">Πρόγραμμα</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="about.html">Σχετικά</a></li>
+      <li><a href="contact.html">Επικοινωνία</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Μενού"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <h1>Portfolio & Πολυμέσα</h1>
+  <p>Μουσικές εκτελέσεις, δραστηριότητες μαθητών και στιγμές από τη ζωή της σχολής</p>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Category Tabs -->
+    <div class="gallery-tabs">
+      <button class="gallery-tab active" data-category="all">Όλα</button>
+      <button class="gallery-tab" data-category="music">Μουσικές Εκτελέσεις</button>
+      <button class="gallery-tab" data-category="students">Δραστηριότητες Μαθητών</button>
+      <button class="gallery-tab" data-category="dance">Χοροθεραπεία</button>
+    </div>
+
+    <div class="gallery-grid">
+
+      <!--
+        ΟΔΗΓΙΕΣ: Αντικαταστήστε τα VIDEO_ID_X με τα πραγματικά YouTube Video IDs.
+        Παράδειγμα: για το URL https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        το VIDEO_ID είναι: dQw4w9WgXcQ
+      -->
+
+      <!-- Music: Video 1 -->
+      <div class="gallery-item" data-category="music">
+        <div class="gallery-yt" data-video-id="tExpcBOCQ5s">
+          <img src="https://img.youtube.com/vi/tExpcBOCQ5s/hqdefault.jpg" alt="Lyre Academy Challenge"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">🪕 Lyre Academy Challenge – Γιάννης Σταθάκος</div>
+      </div>
+
+      <!-- Music: Video 2 -->
+      <div class="gallery-item" data-category="music">
+        <div class="gallery-yt" data-video-id="JWEjlx2i9QI">
+          <img src="https://img.youtube.com/vi/JWEjlx2i9QI/hqdefault.jpg" alt="Αρχαία Λύρα – Εκτέλεση"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">🎵 Αρχαία Λύρα – Σολιστική Εκτέλεση</div>
+      </div>
+
+      <!-- Music: Video 3 -->
+      <div class="gallery-item" data-category="music">
+        <div class="gallery-yt" data-video-id="_wEWxJdzZgc">
+          <img src="https://img.youtube.com/vi/_wEWxJdzZgc/hqdefault.jpg" alt="Σύνολο Μαθητών"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">🎼 Σύνολο Μαθητών – Εκδήλωση 2024</div>
+      </div>
+
+      <!-- Students: Video 4 -->
+      <div class="gallery-item" data-category="students">
+        <div class="gallery-yt" data-video-id="S_tqtnjcb9Y">
+          <img src="https://img.youtube.com/vi/S_tqtnjcb9Y/hqdefault.jpg" alt="Δραστηριότητες Παιδιών"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">👧 Εικαστικά Εργαστήρια Παιδιών</div>
+      </div>
+
+      <!-- Students: Video 5 -->
+      <div class="gallery-item" data-category="students">
+        <div class="gallery-yt" data-video-id="WfoszeBQVqc">
+          <img src="https://img.youtube.com/vi/WfoszeBQVqc/hqdefault.jpg" alt="Μαθητές στη Σκηνή"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">🌟 Μαθητές στη Σκηνή – Ετήσια Εκδήλωση</div>
+      </div>
+
+      <!-- Students: Video 6 -->
+      <div class="gallery-item" data-category="students">
+        <div class="gallery-yt" data-video-id="HOYmhAnLu_4">
+          <img src="https://img.youtube.com/vi/HOYmhAnLu_4/hqdefault.jpg" alt="Σεμινάριο Μαθητών"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">📚 Σεμινάριο Νέων Μουσικών</div>
+      </div>
+
+      <!-- Dance: Video 7 -->
+      <div class="gallery-item" data-category="dance">
+        <div class="gallery-yt" data-video-id="CzKTbE_jsJo">
+          <img src="https://img.youtube.com/vi/CzKTbE_jsJo/hqdefault.jpg" alt="Χοροθεραπεία Εργαστήριο"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">💃 Εργαστήριο Χοροθεραπείας – Ανοιχτή Εκδήλωση</div>
+      </div>
+
+      <!-- Dance: Video 8 -->
+      <div class="gallery-item" data-category="dance">
+        <div class="gallery-yt" data-video-id="tExpcBOCQ5s">
+          <img src="https://img.youtube.com/vi/tExpcBOCQ5s/hqdefault.jpg" alt="Χοροθεραπεία Παιδιών"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">🕺 Χοροθεραπεία Παιδιών – Πειραιάς</div>
+      </div>
+
+      <!-- Dance: Video 9 -->
+      <div class="gallery-item" data-category="dance">
+        <div class="gallery-yt" data-video-id="JWEjlx2i9QI">
+          <img src="https://img.youtube.com/vi/JWEjlx2i9QI/hqdefault.jpg" alt="Σεμινάριο Χοροθεραπείας"
+               onerror="this.style.display='none';this.parentElement.style.background='var(--primary)'">
+          <div class="gallery-yt-overlay">
+            <div class="gallery-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+          </div>
+        </div>
+        <div class="gallery-caption">🌿 Σεμινάριο Χοροθεραπείας Ενηλίκων 2024</div>
+      </div>
+
+    </div>
+
+    <!-- YouTube Channel Link -->
+    <div style="text-align:center;margin-top:3rem;padding:2.5rem;background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow)">
+      <div style="font-size:3rem;margin-bottom:1rem">▶️</div>
+      <h3 style="color:var(--primary);margin-bottom:0.5rem">Κανάλι YouTube: Γιάννης Σταθάκος</h3>
+      <p style="color:var(--text-light);font-size:0.9rem;margin-bottom:1.5rem">Ακολουθήστε μας στο YouTube για νέα βίντεο, μαθήματα αρχαίας λύρας και δραστηριότητες της σχολής.</p>
+      <!-- Replace CHANNEL_URL with actual YouTube channel URL -->
+      <a href="https://www.youtube.com/@giannisstathakos2816" target="_blank" rel="noopener noreferrer"
+         class="btn btn-primary"
+         style="background:#ff0000;display:inline-flex;align-items:center;gap:0.5rem">
+        <svg viewBox="0 0 24 24" style="width:20px;height:20px;fill:white"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        Επισκεφθείτε το Κανάλι
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <span class="footer-logo"><span class="accent">♪</span> Σχολή Ξηροκαμπίου</span>
+        <p>Καλλιτεχνική σχολή στον Πειραιά. Μουσική, Χοροθεραπεία και Εικαστικές Τέχνες για όλες τις ηλικίες.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Σύνδεσμοι</h4>
+        <ul>
+          <li><a href="index.html">Αρχική</a></li>
+          <li><a href="programs.html">Προγράμματα</a></li>
+          <li><a href="schedule.html">Πρόγραμμα</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">Σχετικά</a></li>
+          <li><a href="contact.html">Επικοινωνία</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Προγράμματα</h4>
+        <ul>
+          <li><a href="programs.html">Μουσική</a></li>
+          <li><a href="programs.html">Χοροθεραπεία</a></li>
+          <li><a href="programs.html">Εικαστικά</a></li>
+          <li><a href="schedule.html">Εγγραφές</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Επικοινωνία</h4>
+        <p>📍 Πειραιάς, Αττική<br>📞 <a href="tel:+302100000000" style="color:rgba(255,255,255,.65)">+30 210 000 0000</a><br>✉️ <a href="mailto:info@sxolixirokamoiou.gr" style="color:rgba(255,255,255,.65)">info@sxolixirokamoiou.gr</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Σχολή Ξηροκαμπίου – Παράρτημα Πειραιά. Όλα τα δικαιώματα διατηρούνται.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
