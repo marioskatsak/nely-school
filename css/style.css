@@ -1768,22 +1768,20 @@ footer::before { display: none; }
 /* Native HTML5 video variant — no hover transform, video has its own controls */
 .hero-video-native {
   cursor: default;
-  background: var(--ink);
+  background: transparent;
+  aspect-ratio: 16 / 9;
 }
 .hero-video-native:hover { transform: none; box-shadow: 0 1px 0 rgba(20,17,13,0.05); }
 .hero-video-native video,
 .hero-video-native iframe {
-  position: absolute;
-  inset: 0;
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background: var(--ink);
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: transparent;
 }
 .hero-video-native .hero-video-meta {
-  background: linear-gradient(180deg, transparent, rgba(20,17,13,0.6));
-  padding: 2rem 1.5rem 1.5rem;
-  left: 0; right: 0; bottom: 0;
+  padding: 0.75rem 1rem;
   pointer-events: none;
 }
 /* Hide meta overlay when video is playing so controls aren't obscured */
