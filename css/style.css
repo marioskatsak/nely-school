@@ -1789,6 +1789,15 @@ footer::before { display: none; }
   opacity: 0;
 }
 
+/* Fullscreen video — never crop */
+video:fullscreen,
+video:-webkit-full-screen {
+  object-fit: contain !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #000;
+}
+
 /* Tagline below wordmark */
 .hero-tagline {
   font-family: 'Cormorant Garamond', serif;
