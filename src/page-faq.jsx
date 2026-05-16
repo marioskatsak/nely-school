@@ -25,7 +25,7 @@ function PageFAQ() {
             ))}
           </div>
 
-          <div className="join-cta reveal" style={{ marginTop: '3rem' }}>
+          <div className="join-cta reveal in" style={{ marginTop: '3rem' }}>
             <p>Δεν βρήκατε την απάντηση που ψάχνετε;</p>
             <a href="#/contact" className="btn btn-primary">Στείλτε μας μήνυμα</a>
           </div>
@@ -37,7 +37,7 @@ function PageFAQ() {
 
 function FAQItem({ q, a, open, onToggle, delay }) {
   return (
-    <article className={'faq-item reveal' + (open ? ' open' : '')} style={{ transitionDelay: delay + 'ms' }}>
+    <article className={'faq-item reveal in' + (open ? ' open' : '')}>
       <button className="faq-q" onClick={onToggle} aria-expanded={open}>
         <span className="faq-q-text">{q}</span>
         <span className="faq-q-icon">{open ? '−' : '+'}</span>
