@@ -284,7 +284,7 @@ nav {
 }
 
 .hero-image {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 9;
   width: 100%;
 }
 
@@ -1850,10 +1850,10 @@ footer::before { display: none; }
   position: relative;
 }
 @media (min-width: 901px) {
-  .hero-image { aspect-ratio: 4 / 5; max-height: 620px; }
+  .hero-image { aspect-ratio: 16 / 9; }
 }
 @media (max-width: 900px) {
-  .hero-image { aspect-ratio: 16 / 10; }
+  .hero-image { aspect-ratio: 16 / 9; }
 }
 
 .hero-video {
