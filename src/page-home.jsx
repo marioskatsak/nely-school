@@ -54,16 +54,17 @@ function PageHome({ onPlayVideo }) {
             </div>
           </div>
 
-          {/* Hero — YouTube embed */}
+          {/* Hero — self-hosted video */}
           <div className="hero-image">
             <div className="hero-video hero-video-native">
-              <iframe
-                src="https://www.youtube.com/embed/AI0S3CwxcYY?rel=0&modestbranding=1"
-                title="Νέα Λύρα — Παράρτημα Πειραιά"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                style={{ width: '100%', aspectRatio: '16/9', border: 'none', borderRadius: 'inherit' }}
-              />
+              <video
+                src="video.mp4"
+                poster="poster.jpg"
+                controls
+                preload="metadata"
+                playsInline>
+                Το πρόγραμμα περιήγησής σας δεν υποστηρίζει βίντεο HTML5.
+              </video>
               <div className="hero-video-meta">
                 <div className="hero-video-eyebrow">Παρουσίαση</div>
                 <div className="hero-video-title">Νέα Λύρα — Παράρτημα Πειραιά</div>
