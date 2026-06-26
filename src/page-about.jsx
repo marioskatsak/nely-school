@@ -24,6 +24,20 @@ function PageAbout() {
         </div>
       </PageHero>
 
+      {/* Goals & Dreams */}
+      <section className="section">
+        <div className="container">
+          <SectionTitle
+            title="Στόχοι & Όνειρα"
+            subtitle="Η προσπάθειά μας — με δικά μας λόγια"
+          />
+          <div className="prose reveal" style={{ maxWidth: 760, margin: '0 auto' }}>
+            <p>Στόχος της προσπάθειάς μας είναι ο χώρος μας να γίνει ένα φυτώριο δημιουργίας. Με εργαλεία τη μουσική, τον χορό, την κατασκευή οργάνων και ό,τι άλλο, να εκπαιδευτούμε στη συνεργασία και στην ταπεινότητα. Την ταπεινότητα όχι με την έννοια της υποταγής, αλλά «Δεν υπάρχει άνθρωπος που να μην ξέρει τίποτα και που να τα ξέρει όλα».</p>
+            <p>Όνειρό μας είναι, μαθαίνοντας να διαχειριζόμαστε τον ελεύθερο μας χρόνο, να αρχίσουμε σιγά σιγά να αυτοδιαχειριζόμαστε και τη ζωή μας.</p>
+          </div>
+        </div>
+      </section>
+
       {/* History + Philosophy */}
       <section className="section section-alt">
         <div className="container">
